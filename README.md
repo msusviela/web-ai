@@ -15,7 +15,7 @@
 1. Clona el repositorio desde la página de GitHub.
 Pista: Puedes usar los comandos desde una terminal:
 ```bash
-git clone https://github.com/IngSoft-FIS-Ejercicios/hello-ia.git
+git clone https://github.com/IngSoft-FIS-Ejercicios/web-ai.git
 cd hello-ia
 code .
 ```
