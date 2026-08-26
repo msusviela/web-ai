@@ -16,7 +16,7 @@
 Pista: Puedes usar los comandos desde una terminal:
 ```bash
 git clone https://github.com/IngSoft-FIS-Ejercicios/web-ai.git
-cd web-ia
+cd web-ai
 code .
 ```
 
