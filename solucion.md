@@ -1,5 +1,7 @@
 # Solución 
 
+Esta solución es una guía. Pueden haber múltiples soluciones válidas (y distintas a las propuestas aquí) para cada una de las partes. 
+
 ## 1.1 Set up inicial
 
 Aclaración:
