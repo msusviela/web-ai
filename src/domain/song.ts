@@ -1,6 +1,7 @@
 export class Song {
   _titulo!: string;
   _artista?: string;
+  _year?: number;
 
   constructor(aTitulo: string) {
     this.titulo = aTitulo;
@@ -28,7 +29,24 @@ export class Song {
     this._artista = trimmed;
   }
 
+  get year(): number | undefined {
+    return this._year;
+  }
+
+  set year(aYear: number) {
+    if (aYear < 0) {
+      throw new Error("El año de la canción no puede ser negativo.");
+    }
+    this._year = aYear;
+  }
+
   toString(): string {
-    return `Canción: ${this.titulo} - artista: ${this.artista}`;
+    var songString = "";
+    if (this.artista === undefined || this.artista.trim() === "") {
+      songString = `Canción: ${this.titulo} - año: ${this.year}`;
+    } else {
+      songString = `Canción: ${this.titulo} - artista: ${this.artista} - año: ${this.year}`;
+    }
+    return songString;
   }
 }

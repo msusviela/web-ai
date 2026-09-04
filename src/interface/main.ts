@@ -8,18 +8,22 @@ const inpTitle = document.getElementById(
 const inpArtist = document.getElementById(
   "inp-artist",
 ) as HTMLInputElement | null;
+const inpYear = document.getElementById(
+  "inp-year",
+) as HTMLInputElement | null;
 
 const mainSongList = new SongList();
 
-if (btnAdd && inpTitle && inpArtist) {
+if (btnAdd && inpTitle && inpArtist && inpYear) {
   btnAdd.addEventListener("click", () => {
     const songsErrorContainer = document.getElementById("add-songs-error");
     const songsError = document.getElementById("add-songs-error-msg");
     try {
       const newSong = new Song(inpTitle.value);
       newSong.artista = inpArtist.value;
+      newSong.year = parseInt(inpYear.value);
       mainSongList.add(newSong);
-      clearInputs(inpTitle, inpArtist);
+      clearInputs(inpTitle, inpArtist, inpYear);
       songsErrorContainer?.classList.add("d-none");
       loadSongList(newSong);
       appendAlert(`${newSong.titulo} agregada correctamente!`, "success");
@@ -46,9 +50,11 @@ if (btnAdd && inpTitle && inpArtist) {
 function clearInputs(
   inpTitleEl: HTMLInputElement,
   inpArtistEl: HTMLInputElement,
+  inpYearEl: HTMLInputElement,
 ) {
   inpTitleEl.value = "";
   inpArtistEl.value = "";
+  inpYearEl.value = "";
 }
 
 function loadSongList(newSong: Song) {
