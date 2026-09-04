@@ -88,4 +88,4 @@ Luego se abrirá el chat. Conviene verificar que esté la opción Agent seleccio
 Enlaces útiles para Copilot:
 - [Configuración](https://code.visualstudio.com/docs/setup/copilot)
 - [Introducción](https://docs.github.com/es/copilot/get-started/quickstart)
-- [Teórico, buenas prácticas y recomendaciones IA]: https://docs.google.com/presentation/d/1ytFjGOEnU6lygSCmktYf0MuLTJc8dI0MKEqaOdZgNjM/edit?usp=sharing
+- [Teórico, buenas prácticas y recomendaciones IA](https://docs.google.com/presentation/d/1ytFjGOEnU6lygSCmktYf0MuLTJc8dI0MKEqaOdZgNjM/edit?usp=sharing)
