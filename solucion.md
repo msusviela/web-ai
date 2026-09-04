@@ -29,7 +29,7 @@ Además, se utiliza Node.js como entorno de ejecución para ejecutar código Jav
 > ¿Cuál es la estructura de archivos y directorios de este proyecto?
 
 Por estructura, nos referimos a los archivos de este repositorio:
-![estructura](./img/devtools.png).
+![estructura](./img/estructura.png).
 
 En este caso, es importante destacar que se cuenta con la carpeta `src`. En la carpeta `src`, encontramos todo vinculado con el código fuente, es decir, el código de nuestra aplicación.
 
