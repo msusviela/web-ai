@@ -83,7 +83,7 @@ El valor a visualizar debe ser el que se ingresó en el formulario.
 Para abrir Copilot, se puede clickear en el botón que aparece en VSCode:
 ![Copilot](./img/copilot.png).
 
-Luego se abrirá el chat. Conviene verificar que esté la opción Agent seleccionada en ese chat, para asegurarse que tiene el agente. Allí escribir el prompt para agregar lo solicitado. Revisar los cambios, aceptar los adecuados y rechazar/modificar los que no apliquen. Volver a ejecutar, en caso de que sea necesario iterar.
+Luego se abrirá el chat. Conviene verificar que esté la opción Agent seleccionada en ese chat, para asegurarse que tiene el agente. Allí escribir el prompt para agregar lo solicitado. Revisar los cambios, aceptar los adecuados y rechazar/modificar los que no apliquen. Volver a ejecutar, en caso de que sea necesario iterar con uno (o varios) prompts nuevos hasta lograr el resultado deseado.
 
 Enlaces útiles para Copilot:
 - [Configuración](https://code.visualstudio.com/docs/setup/copilot)
